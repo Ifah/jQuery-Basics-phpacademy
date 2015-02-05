@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Inline vs External Scripting</title>
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/jfunc.js"></script>
+</head>
+<body>
+	<!-- <p onclick="hide_element(this, 1000);">Click here to hide me</p> -->
+	<p id="paragraph">Click button to hide me</p>
+	<input type="button" value="Hide" onclick="hide_element('#paragraph', 1000);">
+</body>
+</html>
